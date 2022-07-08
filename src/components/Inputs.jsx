@@ -42,6 +42,7 @@ function Inputs({setQuery, units, setUnits}) {
         <button name='metric' className='text-xl text-white font-light transition ease-out hover:scale-125' onClick={unitChange}>°C</button>
         <p className='text-xl text-white mx-1'>|</p>
         <button name='imperial'  className='text-xl text-white font-light transition ease-out hover:scale-125' onClick={unitChange}>°F</button>
+        <button>Click</button>
       </div>
 
     </div>
