@@ -6,7 +6,7 @@ import {
   UilSun,
   UilSunset,
 } from "@iconscout/react-unicons"
-import { formatToLocalTime, iconUrl } from '../weatherApi/weatherApiService'
+import { formatToLocalTime, iconUrl } from '../services/weatherApiService'
 
 function TemperatureDetails({weather: {
   details, icon, temp, temp_min, temp_max, sunrise, sunset, speed, humidity, timezone, feels_like

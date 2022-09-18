@@ -1,10 +1,11 @@
 import './App.css';
+import UilReact from '@iconscout/react-unicons/icons/uil-react'
 import TopButtons from './components/TopButtons';
 import Inputs from './components/Inputs';
 import TimeAndLocation from './components/TimeAndLocation';
 import TemperatureDetails from './components/TemperatureDetails';
 import Forecast from './components/Forecast';
-import getFormatedWeatherData from './services/weatherService';
+import getFormatedWeatherData from "./services/weatherApiService";
 import { useEffect, useState } from 'react';
 
 function App() {
